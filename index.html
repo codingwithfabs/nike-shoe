@@ -16,16 +16,25 @@
         </div>
     </nav>
 
-    <div class="container" id="modal">
+    <div class="container" id="container">
         <img src="Nike_Kyrie_2_II_EP_University_Blue_Black_Men_basketball_Shoes_819583_501.jpg" alt="">
         <h1>Nike Kyrie 2</h1>
         <h2>Light Bone/Blue</h2>
-        <!-- <div class="user-inputs">
-            <button class="iterate" id="iterate-down">-</button>
-            <span class="value" id="value">0</span>
-            <button class="iterate" id="iterate-up">+</button>
-            <button class="order" id="order-btn">Order</button>
-        </div> -->
+        <div class="modal" id="modal">
+            <div class="close-btn-container">
+                <button id="close-btn">X</button>
+            </div>
+            <div class="user-inputs">
+                <button class="iterate" id="iterate-down" disabled>-</button>
+                <span class="value" id="value">0</span>
+                <button class="iterate" id="iterate-up">+</button>
+                <button class="order" id="order-btn" disabled>Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-status-container" id="order-status-container">
+        <p>Order Has Been Placed!</p>
     </div>
 
     <script src="script.js"></script>
